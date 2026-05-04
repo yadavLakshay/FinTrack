@@ -1,2 +1,27 @@
-# FinTrack
-**FinTrack AI** is an agent-based financial research system that automates market intelligence using web/news scraping, quantitative analysis, and a shared vector database. It generates structured, data-driven reports and investment-style insights efficiently.
+Repo structure
+
+lakshay-yadav/
+├── agents/
+│   ├── __init__.py
+│   ├── researcher.py
+│   ├── analyst.py
+│   └── manager.py
+│
+├── schemas/
+│   ├── __init__.py
+│   └── week1.py
+│
+├── tools/
+│   ├── __init__.py
+│   ├── search.py
+│   └── finance.py
+│
+├── memory/
+│   ├── __init__.py
+│   └── vector_store.py
+│
+├── assets/            ← optional, Week 3
+├── .gitignore
+├── README.md
+├── requirements.txt
+└── main.py
